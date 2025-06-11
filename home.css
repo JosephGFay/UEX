@@ -1,0 +1,190 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4c6853;
+    color: white;
+}
+
+.nav-a-container {
+    display: flex;
+    gap: 40px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #b3c484;
+    height: 100%;
+    background-image: url('home-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background: linear-gradient(to bottom, #ffffff 20%, #c0dbcb 100%);
+    align-items: end;
+    margin-top: auto;
+}
+
+.card-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 25em;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+
+}
+.card img {
+    display: flex;
+    width: 100%;
+    height: 10em;
+    background-color: beige;
+}
+
+.card a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #4c6853;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: auto;
+    width: 23%;
+}
+
+.faq-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #ffffff 20%, #c4e0e4 100%);
+    padding: 20px;
+    gap: 10em
+}
+
+.faq-item {
+    max-width: 30em;
+    height: 8em;
+    border-radius: 8px;
+    padding: 1em;
+    margin: 1em;;
+}
+
+.attraction-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 15px;
+    height: 11em;
+}
+
+.adventure-container {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.adventure-row {
+    display: flex;
+
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.adventure {
+    justify-content: center;
+    background-color: #c9db98;
+    border-radius: 15px;
+    height: 11em;
+    max-width: 50%;
+    padding: 1em;
+}
+
+.adventure a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #4c6853;
+    border-radius: 5px;
+    padding: 10px;
+    width: 23%;
+    text-align: center;
+}
+
+.attraction-row {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.attraction {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    height: 11em;
+    padding: 1em;
+    width: 100%;
+}
+
+.attraction img {
+    width: 15em;
+    height: 10em;
+    border-radius: 5px;
+    margin-right: 2em;
+}
+
+.attraction a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #4c6853;
+    border-radius: 5px;
+    padding: 10px;
+    width: 23%;
+    text-align: center;
+}
