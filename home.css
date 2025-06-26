@@ -197,3 +197,44 @@ a {
     width: 23%;
     text-align: center;
 }
+
+.header {
+    display: flex;
+    width: 80%;
+    color:white;
+    gap: 2em;
+}
+
+.header-title {
+    width: 65%;
+    background-color: #4c6853;
+    border-radius: 15px;
+    padding: 1em;
+}
+
+.header-body {
+     background-color: #4c6853;
+     border-radius: 15px;
+     padding: 1em;
+     margin-left: auto;
+}
+
+.event-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-image img{
+    width: 10em;
+    padding-right: 1em;
+    border-radius: 15px;
+}
+
+.event-title {
+    font-size: large;
+}
+
+.event-timestamp {
+    font-size: x-small;
+}
