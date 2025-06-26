@@ -39,13 +39,16 @@ a {
     -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
 }
 
-/* FIXME: Fix header font so that index page is big & others small */
 .content-container h1 {
     font-family: "Indie Flower", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 10em;
+    font-size: 5em;
     text-shadow: 4px 4px 16px rgba(0,0,0,0.3);
+}
+
+#landing-title {
+    font-size: 10em;
 }
 
 .card-container {
