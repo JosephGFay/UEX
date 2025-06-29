@@ -45,6 +45,7 @@ a {
     font-style: normal;
     font-size: 5em;
     text-shadow: 4px 4px 16px rgba(0,0,0,0.3);
+    height: 2.5em;
 }
 
 #landing-title {
@@ -75,7 +76,7 @@ a {
     padding: 20px;
     width: 300px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    height: 25em;
+    height: 30em;
 }
 .card-content {
     display: flex;
@@ -433,4 +434,19 @@ a {
     .nav-a-container a.active {
         color: #c9db98;
         border-bottom: 2px solid #c9db98;
+    }
+
+
+    .card-content h5 {
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+        color: #4c6853;
+        }
+    /* Unordered lists located on the multiday adventure page */
+    .card-content ul {
+        
+    }
+
+    .card-content li {
+
     }
